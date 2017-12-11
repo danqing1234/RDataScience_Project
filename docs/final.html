@@ -9,10 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="danqing" />
+<meta name="author" content="Danqing Wang" />
 
 
-<title>finalproject</title>
+<title>Attendance Maximum Problem: A Case Study of School Allocation in Buffalo City</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,6 +26,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -296,13 +298,24 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">finalproject</h1>
-<h4 class="author"><em>danqing</em></h4>
-<h4 class="date"><em>2017年12月11日</em></h4>
+<h1 class="title toc-ignore">Attendance Maximum Problem: A Case Study of School Allocation in Buffalo City</h1>
+<h3 class="subtitle"><em>Final Project</em></h3>
+<h4 class="author"><em>Danqing Wang</em></h4>
+<h4 class="date"><em>December 7, 2017</em></h4>
 
 </div>
 
 
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Location is often considered the most critical factor leading to the success of a private- or public-sector organization. Location-allocation is a good Location can help keep fixed and overhead costs low and accessibility high.</p>
+<p>Given facilities that provide goods and services and a set of demand points that consume them, the goal of location-allocation is to locate the facilities in a way that supplies the demand points most efficiently. As the name suggests, location-allocation is a twofold problem that simultaneously locates facilities and allocates demand points to the facilities.</p>
+<p>Maximize Attendance chooses facilities such that as much demand weight as possible is allocated to facilities while assuming the demand weight decreases with distance. The demand points, represented by pie charts in this graphic, show how much of their total demand is captured by the facility. This method considers not only the distance between home and school but also the quality of high schools. This model takes account of more people鈥檚 choice when location-allocation.</p>
+<p>In this project, I use AMP to allocate high schools of Buffalo to see how can the location best suit for buffalo city.</p>
+<div class="figure">
+<img src="AMP.png" alt="Caption for the picture." />
+<p class="caption">Caption for the picture.</p>
+</div>
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
@@ -321,6 +334,7 @@ div.tocify {
 <p>You can also embed plots, for example:</p>
 <p><img src="final_files/figure-html/pressure-1.png" width="672" /></p>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+</div>
 </div>
 
 <!-- give the footer some space -->
